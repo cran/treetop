@@ -1,12 +1,13 @@
-259af73e8e618f68428a85b844b68147 *DESCRIPTION
-f28f236b4e32649495661fcbde9926bc *NAMESPACE
-0033b8eaaf5856ce3be41cf7beb1e90c *R/launchApp.R
-49ed39a62418c4e354e3096209f47970 *R/zzz.R
-518dfe3b15c1b249adfacb72b6553dd8 *build/partial.rdb
+c7cb13c4b1ffd892dff340e06256130c *DESCRIPTION
+4ffdba40b6fe1dc10d45570661e07b80 *NAMESPACE
+b6e5c331e798302ab9dbc43174597c1a *R/launchApp.R
+f8fc4072e7ca30c7260be3dd1119a381 *R/zzz.R
+3e0471347ff112dd50785931758ac3cd *README.md
+44bac963d7d4cb0b8b2e7f87d777217c *build/partial.rdb
 89f3b8f3509b47600d4b8a0000ff5bb9 *inst/app/pageviews.Rdata
-76b1b426b3741335c3254fd91a0f9ac9 *inst/app/server.r
+065b6ce95926f7859e40fdfad9e7dbd5 *inst/app/server.r
 6ea38cff19f1fa6d894586571b72efc0 *inst/app/style.css
-856c06d80fe8076c8c9db0213aa50815 *inst/app/ui.r
+b1ed221932b775761cbba6d7e9b3beab *inst/app/ui.r
 6f647a018e9ac8132c3aafb0b91e0bd6 *inst/app/www/Almeyda.jpg
 6f3b4480971a5707908f6adcebc4f0bd *inst/app/www/Eben.jpg
 17dc0de4b1695e5fe6a82f3f67d4378d *inst/app/www/WebLiDARicon.png
@@ -32,5 +33,5 @@ d1b6197c3c604ce2fc1abeb8dd67bc8a *inst/app/www/paul.jpg
 a78693c0e9545de5a684c54279f5fa17 *inst/app/www/serdp.jpg
 01ea76fd92f9d2e682e3f83a52c21a0a *inst/app/www/serdp1.png
 7c41e5d97dc695e7794ac947a705c7c6 *inst/app/www/valbuena.jpg
-15ba5f4a0771d35e6e408cfe7761f37e *inst/extdata/Eglin_plot1.asc
+75b580dedf448efbcd154834d1f7bf82 *inst/extdata/Eglin_plot1.asc
 4cfd9883551fdb34bc213c4645eb6430 *man/launchApp.Rd

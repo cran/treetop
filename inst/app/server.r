@@ -206,9 +206,10 @@ output$summary <- renderTable({
   if ((input$Mydata)=="ED") {
 
   chmR<- raster::raster(system.file('extdata', 'Eglin_plot1.asc', package='treetop'))
-
+  #quiet(raster::projection(chmR)<-raster::crs('+init=EPSG:3724'))
   chmR0<-chmR
-  projecCHM<-raster::projection(chmR)
+
+  quiet(projecCHM<-raster::projection(chmR))
   detail<-""
   area_ha <- 2.5
   #browser()
@@ -236,7 +237,11 @@ output$summary <- renderTable({
  #browser()
  chmR<-raster::raster(inFile$datapath)
  chmR[chmR[]<0]<-0
- projecCHM<-raster::projection(chmR)
+
+ quiet(projecCHM<-raster::projection(chmR))
+
+ #if (is.na(projecCHM)){ projecCHM<-raster::crs('+init=EPSG:3724')}
+
  area_ha<-0
  reschmR<-raster::res(chmR)[1]
  newst<-raster::extent(chmR)
@@ -254,7 +259,7 @@ output$summary <- renderTable({
 
 
  isolate({
- area_ha <- (raster::ncell(chmR)*raster::res(chmR)[1]^2)/1000
+ area_ha <- (raster::ncell(chmR)*raster::res(chmR)[1]^2)/10000
 
 
  if (area_ha > 1000){
@@ -378,7 +383,7 @@ output$summary <- renderTable({
                legend.args=list(text='Height (m)', side=4, font=2, line=2.7, cex=1.5))
 
           raster::plot(grid_spdf, add=T, axes=F,border="red", lwd=2)
-          points(sp::coordinates(grid_spdf),labels=grid_spdf$id, cex = 8, pch=16, col="gray")
+          points(sp::coordinates(grid_spdf), cex = 8, pch=16, col="gray")
           text(sp::coordinates(grid_spdf),labels=grid_spdf$id, cex = 1.5, col="black")
         }
     })
@@ -585,7 +590,7 @@ output$summary <- renderTable({
     fws=15 }
   if ( input$fws=="17x17"){
     fws=17 }
-  decTREE <- lidR::find_trees(chmR, lidR::lmf(ws=fws))
+   quiet(decTREE <- lidR::find_trees(chmR, lidR::lmf(ws=fws)))
   treeMer<-cbind(as.data.frame(decTREE@coords),as.numeric(paste0(decTREE@data[,2])))
   colnames(treeMer)<-c("x","y","Height")
    tree<-subset(treeMer, treeMer$Height >=Htreshoud)

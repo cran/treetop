@@ -2,7 +2,7 @@ Package: treetop
 Type: Package
 Title: A Shiny-Based Application for Extracting Forest Information from
         LiDAR Data
-Version: 0.0.1
+Version: 0.0.3
 Authors@R: c(
     person("Carlos Alberto", "Silva", email = "carlos_engflorestal@outlook.com", role = c("aut", "cre", "cph")),
     person("Andrew", "Hudak", email = "andrew.hudak@usda.gov", role = "aut"),
@@ -25,16 +25,17 @@ Authors@R: c(
 Description: Set of tools implemented into a shiny-based application for extracting and analyzing individual tree forest attributes from LiDAR (Light Detection and Ranging) data.
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
-Depends: R (>= 4.0.0)
+Depends: R (>= 4.0)
 Imports: shiny, RColorBrewer, spatstat.geom, spatstat.core, raster,
-        rasterVis, sp, geometry, maptools, rgdal, rgl, lidR, pryr, sf,
-        stars, rglwidget
+        rasterVis, sp, geometry, rgdal, rgeos, rgl, lidR, pryr, sf,
+        stars
 Suggests: rmarkdown
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 URL: https://github.com/carlos-alberto-silva/weblidar-treetop
 BugReports: https://github.com/carlos-alberto-silva/weblidar-treetop/issues
 Copyright: inst/COPYRIGHTS
+NeedsCompilation: no
+Packaged: 2021-11-05 17:31:00 UTC; caioh
 Author: Carlos Alberto Silva [aut, cre, cph],
   Andrew Hudak [aut],
   Lee Vierling [aut],
@@ -55,9 +56,4 @@ Author: Carlos Alberto Silva [aut, cre, cph],
   Carine Klauberg [aut]
 Maintainer: Carlos Alberto Silva <carlos_engflorestal@outlook.com>
 Repository: CRAN
-Repository/R-Forge/Project: treetop
-Repository/R-Forge/Revision: 26
-Repository/R-Forge/DateTimeStamp: 2021-03-01 17:00:06
-Date/Publication: 2021-03-02 19:50:05 UTC
-NeedsCompilation: no
-Packaged: 2021-03-01 17:07:15 UTC; rforge
+Date/Publication: 2021-11-05 18:10:02 UTC
