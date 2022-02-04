@@ -2,7 +2,7 @@ Package: treetop
 Type: Package
 Title: A Shiny-Based Application for Extracting Forest Information from
         LiDAR Data
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: c(
     person("Carlos Alberto", "Silva", email = "carlos_engflorestal@outlook.com", role = c("aut", "cre", "cph")),
     person("Andrew", "Hudak", email = "andrew.hudak@usda.gov", role = "aut"),
@@ -33,9 +33,8 @@ Suggests: rmarkdown
 RoxygenNote: 7.1.2
 URL: https://github.com/carlos-alberto-silva/weblidar-treetop
 BugReports: https://github.com/carlos-alberto-silva/weblidar-treetop/issues
-Copyright: inst/COPYRIGHTS
 NeedsCompilation: no
-Packaged: 2021-11-05 17:31:00 UTC; caioh
+Packaged: 2022-01-25 17:06:23 UTC; caioh
 Author: Carlos Alberto Silva [aut, cre, cph],
   Andrew Hudak [aut],
   Lee Vierling [aut],
@@ -56,4 +55,4 @@ Author: Carlos Alberto Silva [aut, cre, cph],
   Carine Klauberg [aut]
 Maintainer: Carlos Alberto Silva <carlos_engflorestal@outlook.com>
 Repository: CRAN
-Date/Publication: 2021-11-05 18:10:02 UTC
+Date/Publication: 2022-02-04 15:30:03 UTC

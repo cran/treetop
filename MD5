@@ -1,11 +1,12 @@
-c7cb13c4b1ffd892dff340e06256130c *DESCRIPTION
+d4d531367c487adf4c92009d5c50a135 *DESCRIPTION
 4ffdba40b6fe1dc10d45570661e07b80 *NAMESPACE
+45f15b4975ab7445f1cc3034e7345e47 *NEWS.md
 b6e5c331e798302ab9dbc43174597c1a *R/launchApp.R
 f8fc4072e7ca30c7260be3dd1119a381 *R/zzz.R
-3e0471347ff112dd50785931758ac3cd *README.md
-44bac963d7d4cb0b8b2e7f87d777217c *build/partial.rdb
-89f3b8f3509b47600d4b8a0000ff5bb9 *inst/app/pageviews.Rdata
-065b6ce95926f7859e40fdfad9e7dbd5 *inst/app/server.r
+a2ef6ba90528f6dfa2f7d9c7a1e4ca42 *README.md
+675c194fefa752a0bc7686ca2037eb89 *build/partial.rdb
+ce20202ec629c7d55d6212196d39c763 *inst/app/pageviews.Rdata
+dedca7cddd665789f88a2100e1acf707 *inst/app/server.r
 6ea38cff19f1fa6d894586571b72efc0 *inst/app/style.css
 b1ed221932b775761cbba6d7e9b3beab *inst/app/ui.r
 6f647a018e9ac8132c3aafb0b91e0bd6 *inst/app/www/Almeyda.jpg
