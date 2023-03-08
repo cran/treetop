@@ -2,7 +2,7 @@ Package: treetop
 Type: Package
 Title: A Shiny-Based Application for Extracting Forest Information from
         LiDAR Data
-Version: 0.0.4
+Version: 0.0.5
 Authors@R: c(
     person("Carlos Alberto", "Silva", email = "carlos_engflorestal@outlook.com", role = c("aut", "cre", "cph")),
     person("Andrew", "Hudak", email = "andrew.hudak@usda.gov", role = "aut"),
@@ -19,22 +19,21 @@ Authors@R: c(
     person("Paul", "Medley", email = "paul.medley@famu.edu", role = "aut"),
     person("Jason", "Vogel", email = "jvogel@ufl.edu", role = "aut"),
     person("Gabriel", "Prata", email = "gprata@ufl.edu", role = "aut"),
-    person("Jeff", "Atkins", email = "jwatkins6@vcu.edu", role = "aut"),
+    person("Jeff", "Atkins", email = "jeffrey.atkins@usda.gov", role = "aut"),
     person("Caio", "Hamamura", email = "caiohamamura@gmail.com", role = "aut"),
     person("Carine", "Klauberg", email = "carine_klauberg@hotmail.com", role = "aut"))
 Description: Set of tools implemented into a shiny-based application for extracting and analyzing individual tree forest attributes from LiDAR (Light Detection and Ranging) data.
 License: GPL-3
 Encoding: UTF-8
 Depends: R (>= 4.0)
-Imports: shiny, RColorBrewer, spatstat.geom, spatstat.core, raster,
-        rasterVis, sp, geometry, rgdal, rgeos, rgl, lidR, pryr, sf,
-        stars
+Imports: shiny, RColorBrewer, spatstat.geom, spatstat.explore, raster,
+        rasterVis, sp, geometry, rgdal, rgl, lidR, pryr, sf, stars
 Suggests: rmarkdown
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 URL: https://github.com/carlos-alberto-silva/weblidar-treetop
 BugReports: https://github.com/carlos-alberto-silva/weblidar-treetop/issues
 NeedsCompilation: no
-Packaged: 2022-01-25 17:06:23 UTC; caioh
+Packaged: 2023-03-07 21:16:26 UTC; jeffa
 Author: Carlos Alberto Silva [aut, cre, cph],
   Andrew Hudak [aut],
   Lee Vierling [aut],
@@ -55,4 +54,4 @@ Author: Carlos Alberto Silva [aut, cre, cph],
   Carine Klauberg [aut]
 Maintainer: Carlos Alberto Silva <carlos_engflorestal@outlook.com>
 Repository: CRAN
-Date/Publication: 2022-02-04 15:30:03 UTC
+Date/Publication: 2023-03-08 10:00:03 UTC
